@@ -44,7 +44,7 @@ public class TexttestFixture {
                 buffer.append("\r\n" + item);
             }
             buffer.append("\r\n");
-            app.updateQuality();
+            app.updateItems();
         }
 
         return buffer.toString();
